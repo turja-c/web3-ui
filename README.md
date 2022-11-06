@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# create-web3 boilerplate
 
-## Getting Started
+A boilerplate for starting a web3 project.
 
-First, run the development server:
+This boilerplate quickly creates a mono repo with 2 environments, a react frontend environment and a Ethereum development environment for writing, testing and deploying contracts.
+
+## Quick Start Notes
+
+1.  To start install
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx create-web3
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  Run `yarn` or `npm install` to install all the dependencies
+3.  Once installation is complete, `cd` into your app's directory and run `yarn chain` or `npm run chain` to start a local hardhat environment
+4.  Open another terminal and `cd` into your app's directory
+5.  Run `yarn deploy` or `npm run deploy` to deploy the example contract locally
+6.  Run `yarn dev` or `npm run dev` to start your FrontEnd dev environment
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This project is built with the following open source libraries, frameworks and languages. User choice of framework used, available in plain js or typescript.
+| Tech | Description |
+| --------------------------------------------- | ------------------------------------------------------------------ |
+| ------ | ------ React Frontend Environment ------ |
+| [Next JS](https://nextjs.org/) | React Framework |
+| [Vite JS](https://vitejs.dev/) | Next Generation Frontend Tooling |
+| ------ | ------ CSS Framework ------ |
+| none | |
+| [Tailwind](https://tailwindcss.com/) | A utility-first CSS framework |
+| [Chakra](https://chakra-ui.com/) | A simple, modular and accessible component library that gives you the building blocks you need to build your React applications. |
+| ------ | ------ Ethereum Development Environment ------ |
+| [Hardhat](https://hardhat.org/) | Ethereum development environment for professionals |
+| [Foundry](https://getfoundry.sh/) | a blazing fast, portable and modular toolkit for Ethereum application development written in Rust. |
+| ------ | ------ Included Libraries ------ |
+| [WAGMI](https://wagmi.sh/) | A set of React Hooks for Web3 |
+| [RainbowKit](https://www.rainbowkit.com/docs/introduction) | RainbowKit is a React library that makes it easy to add wallet connection to your dapp. |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Documentation
 
-## Learn More
+Please visit [create-web3.xyz](https://create-web3.xyz) to view the full documentation.
 
-To learn more about Next.js, take a look at the following resources:
+## Discussions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you have questions how to use, want to suggest a feature, or show off a project you created with create-web3, join [discussions on GitHub](https://github.com/e-roy/create-web3/discussions). I would love to hear from you. 🙂
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Issues
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you find a bug or would like to request a feature, please visit [ISSUES](https://github.com/e-roy/create-web3/issues)
