@@ -15,11 +15,11 @@ export default function Home() {
       <header style={{ padding: '1rem' }}>
         {/* <ConnectButton /> */}
       </header>
-      <Image 
+      {/* <Image 
       alt='testing'
       // src='https://dweb.link/ipfs/bafybeidg2n55izufjix66osrvmwavjvajpq5mfou6lukze5cu32xdprfuq'
       src='https://bafybeidg2n55izufjix66osrvmwavjvajpq5mfou6lukze5cu32xdprfuq.ipfs.dweb.link/WSCryptoNerds-55.jpg'
-      />
+      /> */}
       <main
         style={{
           minHeight: '60vh',
